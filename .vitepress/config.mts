@@ -2,7 +2,7 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-    base: "https://mosu-dev.github.io/mosu-docs/",
+    base: "/mosu-docs/",
 
     title: "MOSU Docs",
     description: "모수 개발문서",
