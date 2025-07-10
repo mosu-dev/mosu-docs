@@ -10,8 +10,8 @@ export default defineConfig({
         // https://vitepress.dev/reference/default-theme-config
         nav: [
             { text: "Home", link: "/" },
-            { text: "Frontend", link: "/docs/frontend" },
-            { text: "Backend", link: "/docs/backend" },
+            { text: "Frontend", link: "./docs/frontend" },
+            { text: "Backend", link: "./docs/backend" },
         ],
 
         sidebar: {
@@ -19,9 +19,9 @@ export default defineConfig({
                 {
                     text: "모수 프론트엔드 문서",
                     items: [
-                        { text: "소개", link: "/docs/frontend/" },
-                        { text: "시작하기", link: "/docs/frontend/getting-started" },
-                        { text: "개발 가이드", link: "/docs/frontend/development-guide" },
+                        { text: "소개", link: "./docs/frontend/" },
+                        { text: "시작하기", link: "./docs/frontend/getting-started" },
+                        { text: "개발 가이드", link: "./docs/frontend/development-guide" },
                     ],
                 },
             ],
@@ -29,9 +29,9 @@ export default defineConfig({
                 {
                     text: "모수 백엔드 문서",
                     items: [
-                        { text: "소개", link: "/docs/backend/" },
-                        { text: "시작하기", link: "/docs/backend/getting-started" },
-                        { text: "개발 가이드", link: "/docs/backend/development-guide" },
+                        { text: "소개", link: "./docs/backend/" },
+                        { text: "시작하기", link: "./docs/backend/getting-started" },
+                        { text: "개발 가이드", link: "./docs/backend/development-guide" },
                     ],
                 },
             ],

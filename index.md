@@ -8,7 +8,7 @@ hero:
     actions:
         - theme: brand
           text: 모수 프론트엔드 개발문서
-          link: ./docs/frontend
+          link: ./docs/frontend/
 
         - theme: brand
           text: 모수 백엔드 개발문서
